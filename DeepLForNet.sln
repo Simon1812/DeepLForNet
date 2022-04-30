@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepLForNet.Playground", "WinFormsApp1\DeepLForNet.Playground.csproj", "{7549E21E-02C7-4C0B-B600-E15E95AF3746}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeepLForNet.Playground", "WinFormsApp1\DeepLForNet.Playground.csproj", "{7549E21E-02C7-4C0B-B600-E15E95AF3746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeepLForNet.NeuralNetwork", "DeepLForNet.NeuralNetwork\DeepLForNet.NeuralNetwork.csproj", "{E23F6953-9DED-47B2-9DC2-D12E0934B99E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7549E21E-02C7-4C0B-B600-E15E95AF3746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7549E21E-02C7-4C0B-B600-E15E95AF3746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7549E21E-02C7-4C0B-B600-E15E95AF3746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E23F6953-9DED-47B2-9DC2-D12E0934B99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E23F6953-9DED-47B2-9DC2-D12E0934B99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E23F6953-9DED-47B2-9DC2-D12E0934B99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E23F6953-9DED-47B2-9DC2-D12E0934B99E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
