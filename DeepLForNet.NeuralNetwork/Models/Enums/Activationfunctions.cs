@@ -9,6 +9,7 @@ namespace DeepLForNet.NeuralNetwork.Models.Enums {
         TanH = 2,
         ReLU = 3,
         Identity = 4,
-        ZeroOne = 5
+        ZeroOne = 5,
+        Softplus = 6,
     }
 }

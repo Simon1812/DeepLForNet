@@ -10,8 +10,6 @@ namespace DeepLForNet.NeuralNetwork.Models {
         public int Layer { get; set; }
         public int Position { get; set; }
         [JsonIgnore]
-        public double CurrentWeightSmudge { get; set; }
-        [JsonIgnore]
         public List<double> WeightSmudges { get; set; }
 
         public Weight() {

@@ -11,6 +11,7 @@ namespace DeepLForNet.NeuralNetwork.Models {
             Inputs = new List<double>();
             Success = new List<bool>();
             Mutation = 0;
+            Learningrate = 0.7d;
         }
 
         public List<ILayer> Layers { get; set; }
@@ -19,7 +20,7 @@ namespace DeepLForNet.NeuralNetwork.Models {
         public IOutputLayer OutputLayer { get; set; }
         public int Mutation { get; set; }
 
-        public readonly double Learningrate = 0.3d;
+        public double Learningrate { get; set; }
 
         [JsonIgnore]
         public List<double> Errors { get; set; }

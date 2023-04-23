@@ -24,7 +24,17 @@ namespace DeepLForNet.NeuralNetwork.Models.Contracts {
         /// The Iteration of the network
         /// </summary>
         int Mutation { get; set; }
-         
+
+        /// <summary>
+        /// A decimal value indicating how fast the network is learning
+        /// </summary>
+        double Learningrate { get; set; }
+
+        /// <summary>
+        /// The Error percentage 
+        /// </summary>
+        public double Error { get; set; }
+
         /// <summary>
         /// List of the Errors of the last executions
         /// </summary>
