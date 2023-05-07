@@ -6,4 +6,8 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DeepLForNet.NeuralNetwork\DeepLForNet.NeuralNetwork.csproj" />
+  </ItemGroup>
+
 </Project>
